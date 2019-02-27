@@ -509,8 +509,8 @@ footer p span:first-child::after {
 	}
 
 	.cnt-info {
-		display: flex;
-		flex-direction: column;
+		display: -webkit-flex;
+		-webkit-flex-direction: column;
 		transform: scale(0.9);
 		line-height: 2em;
 		padding: 50px;
