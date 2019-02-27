@@ -513,11 +513,14 @@ footer p span:first-child::after {
 		flex-direction: column;
 		transform: scale(0.9);
 		line-height: 2em;
+		padding: 50px;
+		margin: 10px;
 	}
 
 
 	.tel {
 		text-align: center;
+		margin-top: 20px;
 	}
 
 	.brick {
