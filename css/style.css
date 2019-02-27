@@ -307,14 +307,10 @@ main h1 {
 }
 
 .address {
-	flex-basis: 33%;
+	max-width: 33%;
 	display: flex;
 	flex-direction: column;
 	padding: 5px;
-}
-
-.tel {
-	flex-basis: 33%;
 }
 
 .address p::before {
@@ -515,10 +511,14 @@ footer p span:first-child::after {
 		transform: scale(0.6);
 		padding: 0;
 	}
-
+	
+        .address {
+		max-width: 100%;
+	}
 
 	.tel {
-		text-align: center;
+		margin-top: 20px;
+		margin-left: -50px;
 	}
 
 	.brick {
