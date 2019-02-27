@@ -313,6 +313,10 @@ main h1 {
 	padding: 5px;
 }
 
+.tel {
+	flex-basis: 33%;
+}
+
 .address p::before {
 	font-family: "Font Awesome 5 Free";
 	content: "\f3c5";
@@ -326,13 +330,17 @@ main h1 {
 	margin-top: -15px;
 }
 
-.tel i {
+.tel p::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f095";
+	display: inline-block;
+	padding-right: 10px;
+	vertical-align: middle;
+	font-weight: 900;
 	color: var(--c-orange);
-	padding: 5px;
-	font-size: 20px;
+	font-size: 18px;
+	margin-top: -5px;
 }
-
-
 
 .cnt-form {
 	background-image: url(../img/home_content.png);
@@ -508,20 +516,10 @@ footer p span:first-child::after {
 		padding: 0;
 	}
 
-	/*.cnt-info {
-		display: -webkit-flex;
-		-webkit-flex-wrap: wrap;
-		transform: scale(0.9);
-		line-height: 2em;
-		padding: 50px;
-		margin: 10px;
-	}
-
 
 	.tel {
 		text-align: center;
-		margin-top: 20px;
-	}*/
+	}
 
 	.brick {
 		margin-top: 110px;
