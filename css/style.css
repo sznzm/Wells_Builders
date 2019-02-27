@@ -509,12 +509,15 @@ footer p span:first-child::after {
 	}
 
 	.cnt-info {
-		text-align: center;
-		transform: scale(0.8);
+		display: flex;
+		flex-direction: column;
+		transform: scale(0.9);
+		line-height: 2em;
 	}
 
+
 	.tel {
-		margin-right: 30px;
+		text-align: center;
 	}
 
 	.brick {
